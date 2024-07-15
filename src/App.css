@@ -1,0 +1,59 @@
+
+.appcontainer{
+    display: flex;
+    
+}
+
+.content{
+    width: 100%;
+    
+}
+
+.sidebar{
+    height:100vh;
+}
+
+.postBody{
+   margin:15px 20px;
+    
+}
+span{
+    margin-left:5px;
+    cursor: pointer;
+}
+
+.reaction{
+    margin-top: 10px;
+    margin-bottom: 0 !important;
+}
+
+.createpost{
+    width: 80%;
+    margin-left:10%;
+    margin-top: 5%;
+    border: 1px solid silver;
+    padding: 30px;
+}
+
+.userContent{
+    /* background-color: red !important; */
+    height: 85vh;
+    overflow-y: auto;
+}
+
+.welcome{
+    background-color: whitesmoke;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    margin-top: 2%;
+    width: 900px !important;
+}
+
+
+.spinner{
+    margin-top: 15%;
+    width: 150px !important;
+    height: 150px !important;
+}

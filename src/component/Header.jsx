@@ -1,6 +1,4 @@
-import "./App.css";
-
-function App() {
+const Header = () => {
   return (
     <>
       <header className="p-3 text-bg-dark">
@@ -17,7 +15,7 @@ function App() {
                 role="img"
                 aria-label="Bootstrap"
               >
-                <use xlink:href="#bootstrap"></use>
+                <use xlinkHref="#bootstrap"></use>
               </svg>
             </a>
 
@@ -61,7 +59,7 @@ function App() {
               />
             </form>
 
-            <div classNameName="text-end">
+            <div className="text-end">
               <button type="button" className="btn btn-outline-light me-2">
                 Login
               </button>
@@ -74,6 +72,6 @@ function App() {
       </header>
     </>
   );
-}
+};
 
-export default App;
+export default Header;
