@@ -36,9 +36,13 @@ span{
 }
 
 .userContent{
-    /* background-color: red !important; */
+    
     height: 85vh;
     overflow-y: auto;
+}
+
+.userContent.userContent1{
+    background-color:black !important;
 }
 
 .welcome{
@@ -57,3 +61,55 @@ span{
     width: 150px !important;
     height: 150px !important;
 }
+
+
+
+/* .con a{
+    color:rgba(128, 128, 128, 0.5) !important;
+}
+
+.con1 a{
+    color:white !important;
+}
+
+.con p{
+    color:rgba(128, 128, 128, 0.527);
+} */
+
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+  
+  .dark-mode .content {
+    background-color: #121212;
+    color: white;
+  }
+  
+  .bg-dark {
+    background-color: #343a40 !important;
+  }
+  
+  .text-light {
+    color: #f8f9fa !important;
+  }
+  
+  /* Custom pagination styles for dark mode */
+  .dark-mode .MuiPaginationItem-root {
+    color: white !important;
+    background-color: #343a40 !important;
+    border: 1px solid white;
+  }
+  
+  .dark-mode .MuiPaginationItem-root.Mui-selected {
+    background-color: white !important;
+    color: #343a40 !important;
+  }
+  
+  .dark-mode .MuiPaginationItem-root:hover {
+    background-color: white !important;
+    color: #343a40 !important;
+  }
+  

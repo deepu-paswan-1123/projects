@@ -1,4 +1,8 @@
-const Header = () => {
+const Header = ({ isDarkMode, toggleDarkMode }) => {
+  const handledarkmode = () => {
+    toggleDarkMode();
+  };
+
   return (
     <>
       <header className="p-3 text-bg-dark">
@@ -63,8 +67,15 @@ const Header = () => {
               <button type="button" className="btn btn-outline-light me-2">
                 Login
               </button>
-              <button type="button" className="btn btn-warning">
+              <button type="button" className="btn btn-warning  me-2">
                 Sign-up
+              </button>
+              <button
+                type="button"
+                className="btn btn-outline-light darkmode"
+                onClick={handledarkmode}
+              >
+                {isDarkMode ? 'Light Mode' : 'Dark Mode'}
               </button>
             </div>
           </div>

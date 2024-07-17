@@ -69,6 +69,7 @@ const CreatePost = () => {
             id="userid"
             aria-describedby="emailHelp"
             placeholder="Your User Id"
+            required
           />
         </div>
         <div className="mb-3">
@@ -82,6 +83,7 @@ const CreatePost = () => {
             id="title"
             aria-describedby="emailHelp"
             placeholder="How are you feeling today..."
+            required
           />
         </div>
         <div className="mb-3">
@@ -95,6 +97,7 @@ const CreatePost = () => {
             id="body"
             aria-describedby="emailHelp"
             placeholder="Tell us more about it."
+            required
           />
         </div>
         <div className="mb-3">
@@ -108,6 +111,7 @@ const CreatePost = () => {
             id="reaction"
             aria-describedby="emailHelp"
             placeholder="How many people reacted to this post"
+            required
           />
         </div>
         <div className="mb-3">
@@ -121,6 +125,7 @@ const CreatePost = () => {
             id="tags"
             aria-describedby="emailHelp"
             placeholder="Please Enter tags using space"
+            required
           />
         </div>
         

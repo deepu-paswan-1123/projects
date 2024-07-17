@@ -2,7 +2,7 @@ import React from "react";
 
 const WelcomeMessage = ({ OnGetPostClick }) => {
   return (
-    <div className="jumbotron container welcome">
+    <div className="jumbotron container welcome text-dark">
       <h1 className="display-4">Hey, Friends!</h1>
       <p className="lead">
         Here is information about the post. There is no post yet; you might be the first person to share a post here. Please try it for your experience.
