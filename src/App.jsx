@@ -7,6 +7,7 @@ import { useState } from "react";
 import PostListProvider from "./store/Post-List-Store";
 import CreatePost from "./component/CreatePost";
 import { Outlet } from "react-router-dom";
+// import PaginationSize from "./component/PaginationSize";
 
 function App() {
   const [selectedTab,setSelectedTab]=useState("Home");
@@ -20,6 +21,7 @@ function App() {
             {/* {selectedTab==='Home'?<PostList></PostList> : <CreatePost></CreatePost>} */}
               <Outlet></Outlet>
             </div>
+            {/* <PaginationSize></PaginationSize> */}
             <Footer></Footer>
           </div>
       </div>
@@ -28,3 +30,8 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
